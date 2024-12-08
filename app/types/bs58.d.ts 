@@ -1,0 +1,5 @@
+declare module 'bs58' {
+  const encode: (input: Uint8Array) => string;
+  const decode: (input: string) => Uint8Array;
+  export { encode, decode };
+}
